@@ -1,0 +1,24 @@
+{
+  "originHash" : "911b8590434905a0b91cf661f29ca9a18a8fbccf0cba27c43c51429317d09df6",
+  "pins" : [
+    {
+      "identity" : "satellitekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/gavineadie/SatelliteKit.git",
+      "state" : {
+        "revision" : "f2c9f22cc39d255b61fe9a94ac174e7f51b19c5e",
+        "version" : "2.0.1"
+      }
+    },
+    {
+      "identity" : "swift-sgp4",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/csanfilippo/swift-sgp4.git",
+      "state" : {
+        "revision" : "cbc9a67b1851541d939b0106e003d85c7257ce63",
+        "version" : "1.2.0"
+      }
+    }
+  ],
+  "version" : 3
+}

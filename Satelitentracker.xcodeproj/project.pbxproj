@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E00B7DB2DE50E28002DD17D /* SGPKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6E00B7DA2DE50E28002DD17D /* SGPKit */; };
+		6E00B7DE2DE51BE8002DD17D /* SatelliteKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6E00B7DD2DE51BE8002DD17D /* SatelliteKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E9E7CF42DBA3FA200445021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E9E7CDE2DBA3FA100445021 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E9E7CE52DBA3FA100445021;
+			remoteInfo = Satelitentracker;
+		};
+		6E9E7CFE2DBA3FA200445021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E9E7CDE2DBA3FA100445021 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E9E7CE52DBA3FA100445021;
+			remoteInfo = Satelitentracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E9E7CE62DBA3FA100445021 /* Satelitentracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Satelitentracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E9E7CF32DBA3FA200445021 /* SatelitentrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SatelitentrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E9E7CFD2DBA3FA200445021 /* SatelitentrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SatelitentrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6E8A5D6F2DEFACA000166ABC /* Exceptions for "Satelitentracker" folder in "Satelitentracker" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6E9E7CE52DBA3FA100445021 /* Satelitentracker */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6E9E7CE82DBA3FA100445021 /* Satelitentracker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6E8A5D6F2DEFACA000166ABC /* Exceptions for "Satelitentracker" folder in "Satelitentracker" target */,
+			);
+			path = Satelitentracker;
+			sourceTree = "<group>";
+		};
+		6E9E7CF62DBA3FA200445021 /* SatelitentrackerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SatelitentrackerTests;
+			sourceTree = "<group>";
+		};
+		6E9E7D002DBA3FA200445021 /* SatelitentrackerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SatelitentrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E9E7CE32DBA3FA100445021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E00B7DB2DE50E28002DD17D /* SGPKit in Frameworks */,
+				6E00B7DE2DE51BE8002DD17D /* SatelliteKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9E7CF02DBA3FA200445021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9E7CFA2DBA3FA200445021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E9E7CDD2DBA3FA100445021 = {
+			isa = PBXGroup;
+			children = (
+				6E9E7CE82DBA3FA100445021 /* Satelitentracker */,
+				6E9E7CF62DBA3FA200445021 /* SatelitentrackerTests */,
+				6E9E7D002DBA3FA200445021 /* SatelitentrackerUITests */,
+				6E9E7CE72DBA3FA100445021 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E9E7CE72DBA3FA100445021 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E9E7CE62DBA3FA100445021 /* Satelitentracker.app */,
+				6E9E7CF32DBA3FA200445021 /* SatelitentrackerTests.xctest */,
+				6E9E7CFD2DBA3FA200445021 /* SatelitentrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E9E7CE52DBA3FA100445021 /* Satelitentracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E9E7D072DBA3FA200445021 /* Build configuration list for PBXNativeTarget "Satelitentracker" */;
+			buildPhases = (
+				6E9E7CE22DBA3FA100445021 /* Sources */,
+				6E9E7CE32DBA3FA100445021 /* Frameworks */,
+				6E9E7CE42DBA3FA100445021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6E9E7CE82DBA3FA100445021 /* Satelitentracker */,
+			);
+			name = Satelitentracker;
+			packageProductDependencies = (
+				6E00B7DA2DE50E28002DD17D /* SGPKit */,
+				6E00B7DD2DE51BE8002DD17D /* SatelliteKit */,
+			);
+			productName = Satelitentracker;
+			productReference = 6E9E7CE62DBA3FA100445021 /* Satelitentracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E9E7CF22DBA3FA200445021 /* SatelitentrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E9E7D0A2DBA3FA200445021 /* Build configuration list for PBXNativeTarget "SatelitentrackerTests" */;
+			buildPhases = (
+				6E9E7CEF2DBA3FA200445021 /* Sources */,
+				6E9E7CF02DBA3FA200445021 /* Frameworks */,
+				6E9E7CF12DBA3FA200445021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E9E7CF52DBA3FA200445021 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6E9E7CF62DBA3FA200445021 /* SatelitentrackerTests */,
+			);
+			name = SatelitentrackerTests;
+			packageProductDependencies = (
+			);
+			productName = SatelitentrackerTests;
+			productReference = 6E9E7CF32DBA3FA200445021 /* SatelitentrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E9E7CFC2DBA3FA200445021 /* SatelitentrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E9E7D0D2DBA3FA200445021 /* Build configuration list for PBXNativeTarget "SatelitentrackerUITests" */;
+			buildPhases = (
+				6E9E7CF92DBA3FA200445021 /* Sources */,
+				6E9E7CFA2DBA3FA200445021 /* Frameworks */,
+				6E9E7CFB2DBA3FA200445021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E9E7CFF2DBA3FA200445021 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6E9E7D002DBA3FA200445021 /* SatelitentrackerUITests */,
+			);
+			name = SatelitentrackerUITests;
+			packageProductDependencies = (
+			);
+			productName = SatelitentrackerUITests;
+			productReference = 6E9E7CFD2DBA3FA200445021 /* SatelitentrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E9E7CDE2DBA3FA100445021 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					6E9E7CE52DBA3FA100445021 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					6E9E7CF22DBA3FA200445021 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 6E9E7CE52DBA3FA100445021;
+					};
+					6E9E7CFC2DBA3FA200445021 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 6E9E7CE52DBA3FA100445021;
+					};
+				};
+			};
+			buildConfigurationList = 6E9E7CE12DBA3FA100445021 /* Build configuration list for PBXProject "Satelitentracker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+			);
+			mainGroup = 6E9E7CDD2DBA3FA100445021;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				6E5971272DE508FC0057644F /* XCRemoteSwiftPackageReference "swift-sgp4" */,
+				6E00B7DC2DE51BE8002DD17D /* XCRemoteSwiftPackageReference "SatelliteKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6E9E7CE72DBA3FA100445021 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E9E7CE52DBA3FA100445021 /* Satelitentracker */,
+				6E9E7CF22DBA3FA200445021 /* SatelitentrackerTests */,
+				6E9E7CFC2DBA3FA200445021 /* SatelitentrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E9E7CE42DBA3FA100445021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9E7CF12DBA3FA200445021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9E7CFB2DBA3FA200445021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E9E7CE22DBA3FA100445021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9E7CEF2DBA3FA200445021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9E7CF92DBA3FA200445021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E9E7CF52DBA3FA200445021 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E9E7CE52DBA3FA100445021 /* Satelitentracker */;
+			targetProxy = 6E9E7CF42DBA3FA200445021 /* PBXContainerItemProxy */;
+		};
+		6E9E7CFF2DBA3FA200445021 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E9E7CE52DBA3FA100445021 /* Satelitentracker */;
+			targetProxy = 6E9E7CFE2DBA3FA200445021 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6E9E7D052DBA3FA200445021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9P6P8MT764;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E9E7D062DBA3FA200445021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9P6P8MT764;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E9E7D082DBA3FA200445021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9P6P8MT764;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Satelitentracker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Der Zugriff auf Bluetooth wird benötigt, um nach einem Tracking Mount in der Nähe zu suchen und sich mit diesem zu verbinden.";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Standortdienste werden genutzt, um einen Satellitenüberflug für den aktuellen Standort berechnen zu können.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = Me.Satelitentracker;
+				INFOPLIST_KEY_NSMotionUsageDescription = "Der Zugriff auf die Bewegungssensoren werden für die Alignmentroutine der Plattform benötigt, wenn das Iphone dafür genutzt werden soll.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Me.Satelitentracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E9E7D092DBA3FA200445021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9P6P8MT764;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Satelitentracker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Der Zugriff auf Bluetooth wird benötigt, um nach einem Tracking Mount in der Nähe zu suchen und sich mit diesem zu verbinden.";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Standortdienste werden genutzt, um einen Satellitenüberflug für den aktuellen Standort berechnen zu können.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = Me.Satelitentracker;
+				INFOPLIST_KEY_NSMotionUsageDescription = "Der Zugriff auf die Bewegungssensoren werden für die Alignmentroutine der Plattform benötigt, wenn das Iphone dafür genutzt werden soll.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Me.Satelitentracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E9E7D0B2DBA3FA200445021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9P6P8MT764;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Me.SatelitentrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Satelitentracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Satelitentracker";
+			};
+			name = Debug;
+		};
+		6E9E7D0C2DBA3FA200445021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9P6P8MT764;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Me.SatelitentrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Satelitentracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Satelitentracker";
+			};
+			name = Release;
+		};
+		6E9E7D0E2DBA3FA200445021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9P6P8MT764;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Me.SatelitentrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Satelitentracker;
+			};
+			name = Debug;
+		};
+		6E9E7D0F2DBA3FA200445021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9P6P8MT764;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Me.SatelitentrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Satelitentracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E9E7CE12DBA3FA100445021 /* Build configuration list for PBXProject "Satelitentracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E9E7D052DBA3FA200445021 /* Debug */,
+				6E9E7D062DBA3FA200445021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E9E7D072DBA3FA200445021 /* Build configuration list for PBXNativeTarget "Satelitentracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E9E7D082DBA3FA200445021 /* Debug */,
+				6E9E7D092DBA3FA200445021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E9E7D0A2DBA3FA200445021 /* Build configuration list for PBXNativeTarget "SatelitentrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E9E7D0B2DBA3FA200445021 /* Debug */,
+				6E9E7D0C2DBA3FA200445021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E9E7D0D2DBA3FA200445021 /* Build configuration list for PBXNativeTarget "SatelitentrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E9E7D0E2DBA3FA200445021 /* Debug */,
+				6E9E7D0F2DBA3FA200445021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6E00B7DC2DE51BE8002DD17D /* XCRemoteSwiftPackageReference "SatelliteKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gavineadie/SatelliteKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.1;
+			};
+		};
+		6E5971272DE508FC0057644F /* XCRemoteSwiftPackageReference "swift-sgp4" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/csanfilippo/swift-sgp4.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6E00B7DA2DE50E28002DD17D /* SGPKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E5971272DE508FC0057644F /* XCRemoteSwiftPackageReference "swift-sgp4" */;
+			productName = SGPKit;
+		};
+		6E00B7DD2DE51BE8002DD17D /* SatelliteKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E00B7DC2DE51BE8002DD17D /* XCRemoteSwiftPackageReference "SatelliteKit" */;
+			productName = SatelliteKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6E9E7CDE2DBA3FA100445021 /* Project object */;
+}
